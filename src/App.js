@@ -44,7 +44,7 @@ class App extends React.Component {
         const newTodos = [];
         for (const todo in todos) {
             if (!todos[todo].complete) {
-                newTodos[todo] =todos[todo];
+                newTodos[todo] = todos[todo];
             }
         }
         // 3. set state
